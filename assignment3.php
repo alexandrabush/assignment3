@@ -1,9 +1,9 @@
 <?php
-include 'Player.php';
-include 'ChildClass.php';
-$expert = new Player("Neonn", 181259993, 2318, 2568, 9.5, 530432771);
-//$noob = new Player("Xx-pkdURmom-xX", 13124556, 957, 107, 3, 4000451);
-$noob = new ChildClass("Xx-pkdURmom-xX", 13124556, 957, 107, 3, 4000451, 0);
+    include 'Player.php';
+    include 'ChildClass.php';
+
+    $expert = new Player("Neonn", 181259993, 2318, 2568, 9.5, 530432771);
+    $noob = new ChildClass("Xx-pkdURmom-xX", 13124556, 957, 107, 3, 4000451, 0);
 ?>
 
 <!doctype html>
@@ -33,7 +33,9 @@ $noob = new ChildClass("Xx-pkdURmom-xX", 13124556, 957, 107, 3, 4000451, 0);
             </h4>
             <img src="images/noob.jpg">
             <p><? echo $noob ?></p>
-            <h4> However, after being pwn'd by Neonn, pkdURmom wanted to git gud. </h4> 
+            <h4> 
+                However, after being pwn'd by Neonn, pkdURmom wanted to git gud. 
+            </h4> 
             <p> pkdURmom, having <? echo $noob->getWoodcuttingXP() ?> in the Woodcutting skill, decided to not stop chopping virtual wood until her account was awesome.</p>
             <p><?= $noob->addWoodcuttingXP(9280113);?></p>
             <img src="images/Woodcutting_Tree.gif">

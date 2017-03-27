@@ -28,7 +28,6 @@
    			$this->addWealth(15000000);
    			$this->addTimePlayed(72);
    		}
-
 	    public function getOldTotalXP() {
 	      return parent::getTotalXP();
 	    }

@@ -3,10 +3,27 @@
 html{
 	background-color: gray;
 }
+
+/* @font-face kit by Fonts2u (http://www.fonts2u.com) */ 
+@font-face {
+	font-family:'rsFont';
+	src:url('fonts/runescape_chat_font.eot?') format('eot'),
+		url('fonts/runescape_chat_font.woff') format('woff'),
+		url('fonts/runescape_chat_font.ttf') format('truetype'),
+		url('fonts/runescape_chat_font.svg#Runescape-Chat-Font') format('svg');
+	font-weight:normal;
+	font-style:normal;
+}
+
 img {
 	height: 200px;
     width: 200px;
 }
+
+body {
+	font-family: 'rsFont';
+}
+
 h4 {
 	color: white;
 }
